@@ -1,6 +1,6 @@
 ---
-title: AWE.SOME Heading
+title: Expert Web Dev
 type: about
 ---
 
-Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt. Vivamus vitae erat vel tellus condimentum consectetur.
+We turn digital dreams into reality. Whether you're an ambitious startup, a thriving business, or an innovative entrepreneur, our web development solutions are tailored to propel you to the forefront of the digital landscape.

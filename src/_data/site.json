@@ -1,17 +1,21 @@
 {
-  "baseURL": "https://awesome11ty.ttntm.me",
-  "author": "AWE.SOME",
-  "description": "AWE.SOMEty - A Landing Page Template for 11ty",
-  "title": "AWE.SOMEty - A Landing Page Template for 11ty",
+  "baseURL": "https://rastr.studio",
+  "author": "RASTR.studio",
+  "description": "rastr.studio - A development studio for creatives and soloprenuers",
+  "title": "rastr.studio - A development studio for creatives and soloprenuers",
   "language": "en",
   "social": [
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/#"
+      "title": "twitter",
+      "url": "https://twitter.com/rastrstudio"
     },
     {
-      "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "title": "linkedin",
+      "url": "https://www.linkedin.com/company/rastr-studio/"
+    },
+    {
+      "title": "facebook",
+      "url": "https://www.facebook.com/rastr.studio/"
     }
   ]
 }

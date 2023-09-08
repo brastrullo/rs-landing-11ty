@@ -26,7 +26,7 @@ html {
 
     body::-webkit-scrollbar-thumb
     {
-        background-color: #7c3aed;
+        background-color: #f87171;
     }
 }
 
@@ -94,7 +94,7 @@ html {
     list-style: none;
 
     animation-name: change;
-    animation-duration: 20s;
+    animation-duration: 11s;
     animation-iteration-count: infinite;
 }
 
@@ -104,35 +104,19 @@ html {
 }
 
 @keyframes change {
-    0%, 7.14%, 100% {transform:translate3d(0,0,0);}
-    14.28% {transform:translate3d(0,-14.28%,0);}
-    21.42% {transform:translate3d(0,-28.57%,0);}
-    28.57% {transform:translate3d(0,-42.85%,0);}
-    35.71% {transform:translate3d(0,-57.14%,0);}
-    42.85% {transform:translate3d(0,-71.42%,0);}
-    53.5% {transform:translate3d(0,-85.71%,0);}
-    64.28% {transform:translate3d(0,-71.42%,0);}
-    71.42% {transform:translate3d(0,-57.14%,0);}
-    78.54% {transform:translate3d(0,-42.85%,0);}
-    85.71% {transform:translate3d(0,-28.57%,0);}
-    92.85% {transform:translate3d(0,-14.28%,0);}
+    0% {transform:translate3d(0,20%,0);}
+    16.66% {transform:translate3d(0,0,0);}
+    33.33% {transform:translate3d(0,-20%,0);}
+    50.00% {transform:translate3d(0,-40%,0);}
+    66.66% {transform:translate3d(0,-60%,0);}
+    83.33% {transform:translate3d(0,-80%,0);}
+    100% {transform:translate3d(0,-100%,0);}
 }
 
-.tippy-tooltip {
-    background-color: #ccc;
-    color: #C3DAFE;
-    opacity: 0.85;
-}
-
-.tippy-tooltip[data-animatefill] {
-    background-color: transparent;
-}
-
-.tippy-tooltip .tippy-backdrop {
-    background-color: #ccc;
-    opacity: 0.5;
-}
-
-.tippy-tooltip[x-placement^='bottom'] .tippy-arrow {
-    border-bottom-color: #ccc;
+.tippy-box {
+    background-color: rgb(230,230,230);
+  }
+  
+.tippy-arrow {
+  color:  rgb(230,230,230);
 }

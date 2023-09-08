@@ -1,32 +1,32 @@
 [
   {
-    "title": "AWE.SOME Feature One",
-    "icon": "icon1.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "title": "Bespoke Creations",
+    "icon": "custom.svg",
+    "content": "Your vision, our expertise. We craft websites that are as unique as your brand."
   },
   {
-    "title": "AWE.SOME Feature Two",
-    "icon": "icon2.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "title": "Mobile Mastery",
+    "icon": "mobile.svg",
+    "content": "Your website will look and perform flawlessly on any device, reaching customers wherever they are."
   },
   {
-    "title": "AWE.SOME Feature Three",
-    "icon": "icon3.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "title": "Cutting-Edge Tech",
+    "icon": "code.svg",
+    "content": "We stay ahead of the curve, bringing you the latest innovations to stay ahead of the competition."
   },
   {
-    "title": "AWE.SOME Feature Four",
-    "icon": "icon4.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "title": "Speed & Performance",
+    "icon": "gears.svg",
+    "content": "Lightning-fast websites that captivate visitors and boost your SEO rankings."
   },
   {
-    "title": "AWE.SOME Feature Five",
-    "icon": "icon5.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "title": "Results Driven",
+    "icon": "webpage.svg",
+    "content": "Your success is our success. We're obsessed with delivering measurable results that exceed your expectations."
   },
   {
-    "title": "AWE.SOME Feature Six",
-    "icon": "icon6.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "title": "Client-Centric Excellence",
+    "icon": "world.svg",
+    "content": "We're not just developers; we're your partners. Expect transparent communication, support, and a dedication to your success."
   }
 ]
