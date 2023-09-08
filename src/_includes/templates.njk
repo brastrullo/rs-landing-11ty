@@ -1,0 +1,8 @@
+<!-- "Follow" Tooltip template -->
+<template id="followTip">
+  {% for item in site.social %}
+    <a href="{{ item.url }}"
+      class="inline-block text-white text-sm bg-red-400 shadow-md hover:bg-white hover:text-red-400 no-underline p-1 px-4 mx-2 my-1 rounded-sm"
+      target="_blank" rel="noopener">{{ item.title }}</a>
+  {% endfor %}
+</template>

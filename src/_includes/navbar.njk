@@ -8,17 +8,16 @@
   </div>
   <div id="menu"
     class="w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
-    <a class="text-gray-800 font-bold hover:text-red-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1"
-      href="{% if isFront %}#about{% else %}{{ site.baseURL }}/#about{% endif %}">about</a>
+    {# <a class="text-gray-800 font-bold hover:text-red-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1"
+      href="{% if isFront %}about{% else %}{{ site.baseURL }}/about{% endif %}">about</a>
     <a class="text-gray-800 font-bold hover:text-red-400 text-lg text-center w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1"
-      href="{% if isFront %}#features{% else %}{{ site.baseURL }}/#features{% endif %}">features</a>
-    <span id="follow"
-      class="hidden sm:flex text-red-400 font-bold hover:text-red-400 text-lg sm:w-auto sm:px-4 sm:py-1 cursor-pointer flex-col">follow</span>
+      href="{% if isFront %}#features{% else %}{{ site.baseURL }}/#features{% endif %}">features</a> #}
+    {# <span id="follow" class="hidden sm:flex text-red-400 font-bold hover:text-red-400 text-lg sm:w-auto sm:px-4 sm:py-1 cursor-pointer flex-col">follow</span>
     {% for item in site.social %}
       <a href="{{ item.url }}"
         class="text-red-400 hover:bg-white font-bold hover:text-red-400 text-lg text-center w-full no-underline sm:hidden py-2"
         target="_blank" rel="noopener">{{ item.title }}</a>
-    {% endfor %}
+    {% endfor %} #}
     <a class="text bg-gray-100 sm:text-gray-800 text-lgrounded-full w-auto font-extrabold text-2xl text-center sm:text-left hover:text-red-400 hover:underline px-6 py-3 my-0 sm:ml-4 "
       href="{% if isFront %}#contact{% else %}{{ site.baseURL }}/#contact{% endif %}">contact us</a>
   </div>
