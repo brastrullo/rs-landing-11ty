@@ -2,7 +2,7 @@
   {% if item.data.type === 'features' %}
     <div id="features" class="w-full min-h-screen flex flex-col justify-center items-center bg-orange-200 py-12">
       <div class="self-center text-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0">
-        <h2 class="tracking-widest text-red-400 text-4xl sm:text-8xl mb-2 uppercase italic font-black">{{ item.data.title }}</h2>
+        <h2 class="tracking-widest text-red-400 text-6xl sm:text-8xl mb-2 uppercase italic font-black">{{ item.data.title }}</h2>
         <div class="tracking-wider text-red-400 text-4xl mb-6 uppercase italic font-black">
           {{ item.templateContent | safe }}
         </div>
@@ -14,18 +14,18 @@
               <img src="/img/features/{{ item.icon }}" alt="{{ item.title }}" class="w-16 block sm:mx-auto">
             </div>
             <div class="w-2/3 xl:w-3/4">
-              <h3 class="tracking-wide text-red-400 font-black text-2xl lowercase font-serif italic mb-2">{{ item.title }}</h3>
-              <div class="font-light text-gray-600 text-lg">
+              <h3 class="tracking-wide text-red-400 font-black text-xl sm:text-2xl lowercase font-serif italic mb-2">{{ item.title }}</h3>
+              <div class="font-light text-gray-600 text-md sm:text-lg">
                 {{ item.content | markdown | safe }}
               </div>
             </div>
           </div>
         {% endfor %}
       </div>
-      <div class="self-center text-center w-full px-4 sm:px:0">
-        <h3 class="tracking-widest text-white text-4xl sm:text-6xl mt-6 italic uppercase font-black">"{{ item.data.afterTitle }}"</h3>
+      <div class="hidden sm:block self-center text-center w-full px-4 sm:px:0">
+        <h3 class="tracking-widest text-white sm:text-6xl mt-6 italic uppercase font-black">"{{ item.data.afterTitle }}"</h3>
       </div>
-      <div class="flex flex-row w-full justify-center pt-6">
+      <div class="flex flex-row w-full justify-center sm:pt-6">
         <a class="px-10 py-2 text-gray-200 bg-orange-400 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red font-mono" href="#contact">contact us</a>
       </div>
     </div>
