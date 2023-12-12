@@ -9,6 +9,12 @@
 <meta name="description" content="{{ description or site.description }}">
 <meta name="author" content="{{ site.author }}">
 <meta name="robots" content="index,follow">
+<meta http-equiv="Content-Security-Policy" content="
+default-src * 'self' 'unsafe-eval' data:;
+frame-src https://app.cal.com/;
+script-src 'self' 'unsafe-inline' 'unsafe-eval' https://app.cal.com/rastrstudio/meet-brad/embed https://unpkg.com/@popperjs/core@2 https://app.cal.com/embed/embed.js https://unpkg.com/tippy.js@6 'sha256-k6XwQ9FnIkcdXTijeI+qyIWFPLbPZQ2LnaPw4qC2FA0=' 'sha256-0T9RmH5NZf3ELd4h/qiV+xfo5r58rB8JSkJYMEJYl2I=' 'sha256-0T9RmH5NZf3ELd4h/qiV+xfo5r58rB8JSkJYMEJYl2I=';
+style-src 'self' 'sha256-rvGvstnf93W9SDVpvYj4HjaSB8OWGfpe+ejxnB7UGKI=' 'sha256-O81H5I9nfGc1MTzTE+N7PtduuBNuw3+6MgEbeH645Ns=' 'sha256-WWn0l9kVjXaC+CGcbxP6Zyac31v1Cjkx2VMnFR3uVng=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-pdAm0cmRHJpOJT8bicfr4iTw6URCqXchP0cL7qicg5w=' 'sha256-Qo/4ajPQrKHAjeJ9OMdb8qC/LIu1qofZftWFnghXqnw=' https://unpkg.com/tippy.js@6/animations/scale.css;
+img-src 'self' data:">
 <!-- BEGIN SOCIAL META DATA -->
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ title or site.title }}">

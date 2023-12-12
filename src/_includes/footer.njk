@@ -1,51 +1,51 @@
-{# <footer class="w-full flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 py-16"> #}
-  {# <div class="text-center pr-0 sm:px-8 py-4">
+{# <footer class="flex flex-col w-full px-4 py-16 text-lg tracking-wide sm:flex-row sm:justify-center sm:px-0"> #}
+  {# <div class="py-4 pr-0 text-center sm:px-8">
     <ul class="list-none sm:flex-row sm:flex sm:space-x-4">
       {% for item in site.social %}
         <li class="mb-3 last:mb-0 sm:w-min-content">
-          <a class="text-gray-800 hover:text-red-400 no-underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
+          <a class="text-gray-800 no-underline hover:text-red-400" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
         </li>
       {% endfor %}
     </ul>
   </div> #}
-  {# <div class="h-px sm:h-auto w-1/2 sm:w-px bg-red-400 mx-auto sm:mx-0"></div> #}
-  {# <div class="text-center px-8 py-4">
+  {# <div class="w-1/2 h-px mx-auto bg-red-400 sm:h-auto sm:w-px sm:mx-0"></div> #}
+  {# <div class="px-8 py-4 text-center">
     <ul class="list-none">
       <li class="mb-3">
-        <a class="text-gray-800 hover:text-red-400 no-underline" href="{% if isFront %}#about{% else %}{{ site.baseURL }}/#about{% endif %}">about</a>
+        <a class="text-gray-800 no-underline hover:text-red-400" href="{% if isFront %}#about{% else %}{{ site.baseURL }}/#about{% endif %}">about</a>
       </li>
       <li>
-        <a class="text-gray-800 hover:text-red-400 no-underline" href="{% if isFront %}#features{% else %}{{ site.baseURL }}/#features{% endif %}">features</a>
+        <a class="text-gray-800 no-underline hover:text-red-400" href="{% if isFront %}#features{% else %}{{ site.baseURL }}/#features{% endif %}">features</a>
       </li class="mb-3">
     </ul>
   </div>
-  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-red-400 mx-auto sm:mx-0"></div> #}
-  {# <div class="text-center pl-0 sm:pl-8 py-4">
+  <div class="w-1/2 h-px mx-auto bg-red-400 sm:h-auto sm:w-px sm:mx-0"></div> #}
+  {# <div class="py-4 pl-0 text-center sm:pl-8">
     <ul class="list-none">
       <li class="mb-3">
-        <a class="text-gray-800 hover:text-red-400 no-underline" href="/privacy">privacy</a>
+        <a class="text-gray-800 no-underline hover:text-red-400" href="/privacy">privacy</a>
       </li>
       <li class="mb-3">
-        <a class="text-gray-800 hover:text-red-400 no-underline" href="/about">about</a>
+        <a class="text-gray-800 no-underline hover:text-red-400" href="/about">about</a>
       </li>
     </ul>
   </div> #}
 {# </footer> #}
 <div class="w-full bg-gray-100">
   <a href="/privacy" rel="noopener" target="_blank">
-  <span class="block text-center text-gray-400 text-sm font-light">
+  <span class="block text-sm font-light text-center text-gray-400">
     &copy; rastr.studio <small><sup>'23</sup></small>
   </span>
   </a>
 </div>
 <div>
   <a id="btt"
-    class="hidden align-content fixed bottom-0 right-0 mb-4 mr-4 font-serif font-black text-xs text-gray-200 border border-slate-800 hover:bg-white hover:text-red-400 hover:border-red-400 no-underline px-1 py-1 bg-slate-800 shadow-md"
-    href="#top" title="Back to Top"><span class="text-lg bold h-min-content inline-flex my-auto mr-1">↑</span><span class="inline-flex h-min-content my-auto">scroll up</span></a>
+    class="fixed bottom-0 right-0 hidden px-1 py-1 mb-4 mr-4 font-serif text-xs font-black text-gray-200 no-underline border shadow-md align-content border-slate-800 hover:bg-white hover:text-red-400 hover:border-red-400 bg-slate-800"
+    href="#top" title="Back to Top"><span class="inline-flex my-auto mr-1 text-lg bold h-min-content">↑</span><span class="inline-flex my-auto h-min-content">scroll up</span></a>
 </div>
 <div class="fixed bottom-0 left-0 m-6">
-  <a href="" onclick="Calendly.initPopupWidget({url: `https://calendly.com/rastr-studio/discovery-session?primary_color=f87171`});return false;" target="_blank" rel="noopener" title="Schedule a free discovery session"
-    class="block rounded-full bg-black text-orange-400 hover:bg-white hover:text-black shadow-md p-4">
-    <img src="/img/calender.svg" width="30" height="30" class="block" alt="Schedule icon">
-  </a>
+  <button data-cal-link="rastrstudio/meet-brad" data-cal-config='{"layout":"month_view"}' title="Schedule a free discovery session"
+    class="block p-4 text-orange-400 bg-black rounded-full shadow-md hover:bg-white hover:text-black">
+    <img data-cal-link="rastrstudio/meet-brad" data-cal-config='{"layout":"month_view"}' src="/img/calender.svg" width="30" height="30" class="block" alt="Schedule icon">
+  </button>
 </div>
